@@ -33,6 +33,7 @@ var myEvenArray = numbers.every(even);
 var odd =function (num) {
 	return num %2 !==0;
 }
+
 var myOddArray = numbers.filter(odd)
 
 // Find all the words that contain 'is' use string method 'includes'
@@ -118,7 +119,7 @@ function sortByName(item1, item2) {
   } else if (item1.name > item2.name){
       return 1;
   } else {
-      return ;
+      return 0;
   }
 }
 customers.sort(sortByName);
