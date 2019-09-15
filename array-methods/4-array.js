@@ -56,6 +56,7 @@ let ages = data.filter((animal) => {
 })
 
 // 3. reduce - to accumulate total age.
+
 .reduce((sum, animal) => {
   return sum + animal.age;
 })
